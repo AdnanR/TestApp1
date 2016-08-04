@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SharedProject;
 
 namespace TestApp1
 {
@@ -10,6 +11,7 @@ namespace TestApp1
     {
         static void Main(string[] args)
         {
+            string test = Helper.HelperMethod1();
         }
     }
 }
